@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>TextFormating</title>
+    </head>
+    <body>           
+        <p><em>It was the best </em> of times and the worst of times.</p>
+        <p><strong>I know <del> not all </del> that may be coming,</strong> but be it what it will, <mark>I'll go to it laughing.</mark></p>
+        <b>This is bold, but you can use strong</b>
+        <i>This is italics but you canuse em.</i>
+        <p>other formating tags, mark highlights text</p>
+        <p><ins>The quick brown </ins> fox  jumped over the lazy dogs.</p>
+        <p><sub> This demonstration is part of the HTML5 </sub> Specalist's Designation Course. </p>
+        <p>This demonstration is part <sup>of the HTML5 Specalist's Designation Course </sup></p>
+        
+        
+        
+    
+    </body>
+</html>
