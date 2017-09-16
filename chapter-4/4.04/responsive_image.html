@@ -5,8 +5,8 @@
    <style>
        img {
 /*           max-width: 100%;*/
-           width: 25%;
-           height: auto;
+  /*         width: 25%;
+           height: auto;*/
        }
     
     
@@ -15,7 +15,13 @@
 </head>
 <body> 
 <!--   <img src="images/nature.jpg" alt="Nature Photo"/>   -->
-       <img src="images/trees.jpg" alt="Trees Photo"/>
+<!--       <img src="images/trees.jpg" alt="Trees Photo"/>-->
+  <picture>
+      <source srcset="images/trees.jpg" media="(max-width:400px)">
+      <source srcset="images/nature.jpg">
+      <img src ="images/nature.jpg">      
+  </picture>
+   
     
 </body>
     
