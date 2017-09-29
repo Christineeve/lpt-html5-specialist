@@ -1,0 +1,132 @@
+<!DOCKTYPE html>
+<html>
+    
+<head>
+   <title>Lab 6</title>    
+   <style>
+       table, th  {
+        border: 1px solid black;
+        border-collapse: collapse;        
+    }
+   </style>
+</head>
+
+<body>
+    <p>PATIENT NAME ______________________________ Birth Date ____________________________</p>
+    <fieldset>
+    <p>Although dental personnel primarly treat the area in and around your mouth, your moth is part of your entire body. Health problems that you may have, or medication that you may be taking, could have an important interrelationship with the denistry you will receive. Thank you for answering the following questions.</p><br/></fieldset>    
+     <fieldset><legend>Questions</legend>    
+     <form action="">    
+     <table style="width:100%">    
+      <tr>
+        <td><label id="drcare">Are you under a physician's care now?</label></td>
+        <td><input type="radio" name="drcare" value="yes">Yes<br></td>
+        <td><input type="radio" name="drcare" value="no">No<br></td>
+        <td>If yes, please explain __________________________________</td>
+        <td><label id="hosp">Have you ever been hospitalized or had a major operation?</label></td>
+        <td><input type="radio" name="hosp" value="yes">Yes<br></td>
+        <td><input type="radio" name="hosp" value="no">No<br></td>
+        <td>If yes, please explain ___________________________________ </td>        
+      </tr>     
+      <tr>
+        <tr>
+        <td><label id="neck">Have you ever had a serious head or neck injury?</label></td>
+        <td><input type="radio" name="neck" value="yes">Yes<input type="radio" name="neck" value="no">No<br/>If yes, please explain ___________________________________ </td>        
+      </tr>      
+      </table>
+    <fieldset><legend>Women: Are you</legend>
+    <label id="women"></label><br/>
+    <input type="checkbox" name="women" value = "Pregnant">Pregnant/Trying to get Pregnant<br/>
+    <input type="checkbox" name="women" value = "Pill">Taking Oral Contraceptives<br/>
+    <input type="checkbox" name="women" value = "Nursing">Nursing<br/>      
+    </fieldset>
+    
+    <fieldset><legend>Are you allergic to any of the following?</legend>
+    <label id="allergies" align="center"></label><br/>	
+    <input type="checkbox" name="allergy" value = "Chocolate">Chocolate<br/>
+    <input type="checkbox" name="allergy" value = "Pork">Pork<br/>
+    <input type="checkbox" name="allergy" value = "Onions">Onions<br/>
+    <input type="checkbox" name="allergy" value = "Codeine">Codeine<br/>
+    <input type="checkbox" name="allergy" value = "Asprin">Asprin<br/> 
+    <input type="checkbox" name="allergy" value = "Gnomes">Garden Gnomes<br/> 
+        
+    <p>Other:______________________________________________________________
+    </p>
+    <p>If yes, please explain:_________________________________________________
+    </p>
+    </fieldset>
+    <fieldset><legend>Do you have, or have you had, any of the following?</legend>
+     <table border="0" cellspacing="0" style="width:100%">      
+     <tr>
+        <td><label id="crs">AIDS/HIV Positive</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>   
+        <td><label id="hay">Cortisone Medicine</label></td>
+        <td><input type="radio" name="hay" value="yes">Yes<br></td>
+        <td><input type="radio" name="hay" value="no">No<br></td>  
+        <td><label id="crs">Hemophilia</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>  
+        <td><label id="crs">Radiation Treatments</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>      
+      </tr>
+      <tr>
+        <td><label id="crs">Alzheimer's Disease</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>   
+        <td><label id="hay">Diabetes</label></td>
+        <td><input type="radio" name="hay" value="yes">Yes<br></td>
+        <td><input type="radio" name="hay" value="no">No<br></td>  
+        <td><label id="crs">Hepatitis A</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>  
+        <td><label id="crs">Recent Weight Loss</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>        
+      </tr>
+        <tr>
+        <td><label id="crs">Anaphylaxis</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>   
+        <td><label id="hay">Drug Addiction</label></td>
+        <td><input type="radio" name="hay" value="yes">Yes<br></td>
+        <td><input type="radio" name="hay" value="no">No<br></td>  
+        <td><label id="crs">Hepatitis B or C</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>  
+        <td><label id="crs">Renal Dialysis</label></td>
+        <td><input type="radio" name="crs" value="yes">Yes<br></td>
+        <td><input type="radio" name="crs" value="no">No<br></td>
+      </tr>
+      <tr>
+      <th colspan="17" align="left">Have you ever had any serious illness not listed above?<input type="radio" name="other" value="yes">Yes<input type="radio" name="other" value="no">No<br></th> 
+      <tr>
+      <th colspan="16" align="left"><p>Comments:</p></th> 
+      </tr>
+      <tr>
+      <th colspan="16"><p></p></th>
+      </tr>
+        <tr>
+      <th colspan="16"><p></p></th>
+      </tr>
+        <tr>
+      <th colspan="16"><p></p></th>
+      </tr>
+      </table>
+    </fieldset>
+    
+    
+    <fieldset>
+    <p>To the best of my knowledge, the questions on this form have been accurately answered. I understand that providing incorrect information can be dangerous to my (or patient's) health. It is my responsibility to inform the dental office of any chanes in medical status.</p>
+    </fieldset>
+    <fieldset>
+    <p>SIGNATURE OF PATIENT, PARENT, or GUARDIAN ____________________ DATE____________</p>
+    </fieldset>
+    </form>
+
+
+</body>
+
+
+</html>
