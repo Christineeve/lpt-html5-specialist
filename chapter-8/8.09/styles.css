@@ -1,0 +1,68 @@
+#container
+  {
+    width: 100%;
+    padding: 10px;
+  } 
+
+h1
+  {
+    font-family: Arial;
+    font-weight: bold;
+    color: #0000cc;               
+  }
+h2
+  {
+    font-family: sans-serif;              
+    color: #000000; 
+    font-style: italic;
+    font-size: 1.5em;
+  }
+h3, h4
+{
+  font-variant: small-caps;
+}
+p
+{
+  font-family: Arial;
+  font-size: .9em                 
+}
+#header
+{
+  font-weight: bold;
+  clear: both;
+} 
+
+#secondary
+{
+  width: 25%;
+  float: left;
+  padding-right: 5px;
+} 
+#primary
+{                        
+  width: 48%;
+  float: left;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-left: 50 px;
+  padding-right: 20 px;
+}
+
+#moreSecondary
+{
+  width: 25%;
+  float: left;
+  padding-left: 20 px;
+
+}      
+img
+  { 
+      height: 100px;
+      width:  100px;              
+  }
+footer
+{
+  clear: both;            
+}
+
+
